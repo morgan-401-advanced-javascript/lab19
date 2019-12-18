@@ -1,2 +1,13 @@
 @import 'variables';
 @import 'mixins';
+
+
+body{
+    background-color: $theme-color;
+    display: inline-block;
+        .App {
+            @include format-app();
+            background-color: silver;
+        }
+
+}

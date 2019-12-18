@@ -1,0 +1,6 @@
+@mixin format-app() {
+    padding: $spacing;
+    margin-top: $spacing;
+    margin-bottom: $spacing;
+    text-align: center;
+}
