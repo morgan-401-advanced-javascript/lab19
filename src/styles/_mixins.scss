@@ -1,6 +1,10 @@
-@mixin format-app() {
+@mixin format() {
     padding: $spacing;
     margin-top: $spacing;
     margin-bottom: $spacing;
     text-align: center;
+}
+
+@mixin highlight(){
+    color: $theme-color;
 }

@@ -4,10 +4,14 @@
 
 body{
     background-color: $theme-color;
+    font-family: $font;
     display: inline-block;
-        .App {
-            @include format-app();
+    .App {
+        h1{
+            font-size: 75px;
+            @include highlight();
+        }
+            @include format();
             background-color: silver;
         }
-
 }
