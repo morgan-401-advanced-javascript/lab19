@@ -1,8 +1,17 @@
 import React from 'react';
+import renderer from 'react-test-renderer';
+import App from '../components/App';
 
 describe('', () => {
     it('', () => {
         expect(true).toBeTruthy();
+    });
+});
+
+describe('App component', () => {
+    it('renders correctly', () => {
+        const page = renderer.create(<App />).toJSON();
+        expect(page).toMatchSnapshot();
     });
 });
 // Snapshot test
