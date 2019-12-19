@@ -1,6 +1,9 @@
 import React from 'react';
 import Converter from './Converter';
-
+/**
+ * This is the app that will render the HTML from Converter 
+ * @function App
+ */
 function App() {
     return (
         <div className='App'>
@@ -11,5 +14,7 @@ function App() {
         </div>
     );
 }
+
+
 
 export default App;

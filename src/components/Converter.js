@@ -1,6 +1,8 @@
 import React from 'react';
 import '../styles/styles.scss';
-
+/**
+ * Converter Class that will convert user input value from standard measurment units to metric units
+ */
 class Converter extends React.Component {
     constructor(props) {
         super(props);
@@ -10,7 +12,10 @@ class Converter extends React.Component {
             rate: this.props.rate ? this.props.rate : 1,
         };
     }
-
+/**
+ * @method roundIt 
+ * @param {number} num integer
+ */
     roundIt(num) {
         return Math.round(num * 1000) / 1000;
     }
