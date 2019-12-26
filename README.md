@@ -5,8 +5,9 @@
 ### Links and Resources
 * [submission PR](https://github.com/morgan-401-advanced-javascript/lab19/pull/1)
 * [travis](https://travis-ci.com/morgan-401-advanced-javascript/lab19)
-* [back-end](http://xyz.com) (when applicable)
-* [front-end](http://xyz.com) (when applicable)
+* [AWS](http://captainmorgan401.s3-website-us-west-2.amazonaws.com/)
+* [Amplify](https://working.d21ujo9z9epve3.amplifyapp.com/)
+* [netlify](https://heuristic-leakey-45f0ee.netlify.com/)
 
 #### Documentation
 * [api docs](http://xyz.com) (API servers)
