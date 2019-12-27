@@ -9,11 +9,6 @@
 * [Amplify](https://working.d21ujo9z9epve3.amplifyapp.com/)
 * [netlify](https://heuristic-leakey-45f0ee.netlify.com/)
 
-#### Documentation
-* [api docs](http://xyz.com) (API servers)
-* [jsdoc](http://xyz.com) (Server assignments)
-* [styleguide](http://xyz.com) (React assignments)
-
 #### Running the app
 To run this application, simply execute the terminal commands:
 ` npm install` and `npm start`. 
