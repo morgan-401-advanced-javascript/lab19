@@ -1,0 +1,17 @@
+@import 'variables';
+@import 'mixins';
+
+
+body{
+    background-color: $theme-color;
+    font-family: $font;
+    display: inline-block;
+    .App {
+        h1{
+            font-size: 75px;
+            @include highlight();
+        }
+            @include format();
+            background-color: silver;
+        }
+}
