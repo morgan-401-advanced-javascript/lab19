@@ -14,32 +14,14 @@
 * [jsdoc](http://xyz.com) (Server assignments)
 * [styleguide](http://xyz.com) (React assignments)
 
-### Modules
-#### `modulename.js`
-##### Exported Values and Methods
-
-###### `foo(thing) -> string`
-Usage Notes or examples
-
-###### `bar(array) -> array`
-Usage Notes or examples
-
-### Setup
-#### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
-
 #### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
+To run this application, simply execute the terminal commands:
+` npm install` and `npm start`. 
+Then you should see the application running on `localhost:3000`.
   
 #### Tests
 * How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
+`npm test`
 
 #### UML
 Link to an image of the UML for your application and response to events
